@@ -151,6 +151,12 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_nyc2.jpg",
       "model" : "models/js/nyc-poster2.js",
       "type" : "2"
+    },
+    {
+      "name" : "Computer Rack",
+      "image" : "models/thumbnails/cb-clapboard_baked.png",
+      "model" : "models/js/rack.gltf",
+      "type" : "2"
     }
    /*     
    {

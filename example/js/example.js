@@ -116,6 +116,12 @@ var ContextMenu = function (blueprint3d) {
   }
 
   function itemSelected(item) {
+
+    console.log("selected item width ",item.getWidth());
+    console.log("selected item height ",item.getHeight());
+    console.log("selected item depth ",item.getDepth());
+    console.log("selected item ",item);
+
     selectedItem = item;
 
     $("#context-menu-name").text(item.metadata.itemName);
